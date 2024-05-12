@@ -32,6 +32,7 @@ def detect_wake_word():
                 return True
 
 def speech_wake_up():
+    print("Listening for wake word...")
     if detect_wake_word():
         main()
 
